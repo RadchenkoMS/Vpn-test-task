@@ -55,7 +55,7 @@ ROOT_URLCONF = 'vpn_backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["vpn_backend/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
